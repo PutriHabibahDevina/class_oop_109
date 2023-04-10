@@ -10,3 +10,11 @@ public: void cetak() {
 	cout << "Nama = " << nama;
 }
 };
+
+class Matakuliah {
+private:
+	string kode;
+	string namaM;
+	int SKS;
+
+};
