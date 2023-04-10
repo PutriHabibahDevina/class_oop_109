@@ -18,7 +18,7 @@ private:
 	int sks;
 public:
 	void input() {
-		cout << "Masukkan Kode Matakuliah = ";
+		cout << "\nMasukkan Kode Matakuliah = ";
 		cin >> kode;
 		cout << "Masukan Nama Matakuliah = ";
 		cin >> namaM;
