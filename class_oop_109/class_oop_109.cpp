@@ -31,3 +31,7 @@ public:
 		cout << "SKS = " << sks;
 	}
 };
+
+int main() {
+	
+}
