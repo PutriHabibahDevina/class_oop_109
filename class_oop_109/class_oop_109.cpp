@@ -8,13 +8,22 @@ public:
 public: void cetak() {
 	cout << "NIM = " << nim;
 	cout << "Nama = " << nama;
-}
+	}
 };
 
 class Matakuliah {
 private:
 	string kode;
 	string namaM;
-	int SKS;
+	int sks;
+public:
+	void input() {
+		cout << "Masukkan Kode Matakuliah = ";
+		cin >> kode;
+		cout << "Masukan Nama Matakuliah = ";
+		cin >> namaM;
+		cout << "Jumlah SKS = ";
+		cin >> sks;
+	}
 
 };
