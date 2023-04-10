@@ -27,7 +27,7 @@ public:
 	}
 	void tampil() {
 		cout << "Kode Matakuliah = " << kode;
-		cout << "Nama Matakuliah = " << nama;
+		cout << "Nama Matakuliah = " << namaM;
 		cout << "SKS = " << sks;
 	}
 };
