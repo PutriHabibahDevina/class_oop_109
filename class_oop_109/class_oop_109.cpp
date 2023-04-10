@@ -7,7 +7,7 @@ public:
 	string nama;
 public: void cetak() {
 	cout << "NIM = " << nim;
-	cout << "Nama = " << nama;
+	cout << "\nNama = " << nama;
 	}
 };
 
